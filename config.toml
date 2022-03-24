@@ -1,0 +1,7 @@
+baseURL = "http://hugo-test-hfj.s3-website-us-east-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Huge AWS CD"
+theme = "ananke"
+[[deployment.targets]]
+name = "awsbucket"
+URL = "s3://hugo-test-hfj/?region=us-east-1"
